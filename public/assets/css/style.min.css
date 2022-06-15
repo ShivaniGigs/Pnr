@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Inter';
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraLight.eot');
+    src: url('../fonts/Inter-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraLight.woff') format('woff'),
+        url('../fonts/Inter-ExtraLight.ttf') format('truetype'),
+        url('../fonts/Inter-ExtraLight.svg#Inter-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.eot');
+    src: url('../fonts/Inter-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Light.woff2') format('woff2'),
+        url('../fonts/Inter-Light.woff') format('woff'),
+        url('../fonts/Inter-Light.ttf') format('truetype'),
+        url('../fonts/Inter-Light.svg#Inter-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.eot');
+    src: url('../fonts/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff'),
+        url('../fonts/Inter-Medium.ttf') format('truetype'),
+        url('../fonts/Inter-Medium.svg#Inter-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.eot');
+    src: url('../fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff'),
+        url('../fonts/Inter-Regular.ttf') format('truetype'),
+        url('../fonts/Inter-Regular.svg#Inter-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.p-0 {
+    padding: 0px !important;
+}
+.px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.error-red {
+    color: red;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.ui .pnr-status-bg {
+    background: #f5f9ff;
+    padding: 0;
+    padding-bottom: 0;
+    margin: 0px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+.ui .pnr-status-bg img {
+    width: 100%;
+    height: 100%;
+    padding: 28px 0 0 10px;
+}
+.ui .sign-up-box {
+    width: 100%;
+    padding: 15px 35px 0px;
+    background: #3d5e8e;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    height: 100%;
+    max-height: 66%;
+}
+.sign-up-header {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 0 0 15px;
+}
+.sign-up-header img {
+    width: 40px;
+}
+.ui .sign-up-form {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 0px;
+}
+.have-login {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.have-login a {
+    color: #fff;
+    font-weight: 500;
+    padding-left: 6px;
+}
+.sign-up-header h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #434343;
+}
+.sign-up-para {
+    font-size: 14px;
+    color: #7a7a7a;
+}
+.ui.form .field>label {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7a7a7a;
+    margin: 0 0 10px;
+}
+.ui.form .field>input {
+    font-size: 14px;
+    border-radius: 8px;
+}
+.ui.form .otp-fields .field>input[type=number] {
+    padding: 10px 5px;
+    text-align: center;
+}
+.ui .fields.otp-fields {
+    margin-bottom: 0;
+}
+.ui .otp-resend {
+    margin: -12px 0 0 0;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.password-strength-1, .password-strength-2, .password-strength-3, .password-strength-4 {
+    width: 100%;
+    height: 3px;
+    background: #ebebeb;
+    display: block;
+}
+.pnr-checkbox .ui.checkbox label {
+    font-size: 12px;
+    color: #7a7a7a;
+}
+.primary-btn {
+    width: 100%;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #1357b9;
+    border: 1px solid #1357b9;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.primary-btn:hover {
+    color: #1357b9;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.ui.horizontal.segments.pnr-status-whole-bg {
+    background: #f5f5f5;
+    border: none;
+}
+.check-pnr-text h2 {
+    font-size: 34px;
+    padding: 50px 30px;
+    line-height: 50px;
+    width: 320px;
+}
+.check-pnr-text h2 span {
+    font-weight: 600;
+    font-size: 40px;
+}
+.check-pnr-arrow img {
+    width: 100%;
+    margin: 70% 10% 0px;
+}
+.ui.grid .sign-up .get-the-app {
+    padding: 70px 30px;
+    text-align: center;
+}
+.get-the-app h3 {
+    font-size: 30px;
+}
+.get-the-app img {
+    padding: 20px 30px;
+}
